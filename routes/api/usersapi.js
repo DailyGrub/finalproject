@@ -16,7 +16,7 @@ console.log(req.body);
 
 db.createUser(adduser, function (err, useradded) {
   console.log("User Created:", useradded);
-  res.redirect("/Confirm");
+  res.redirect("/userconfirmation");
 });
 
 // mongo.connect(url, function(err, db) {

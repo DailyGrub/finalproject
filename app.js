@@ -1,5 +1,5 @@
 //Dependencies
-var dotenv = require('dotenv').config({path:__dirname+'/./../../.env'});
+const env = require('env2')('.env');
 
 var express = require('express');
 var path = require('path');
