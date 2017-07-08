@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
         Countdown initializer
     */
     var now = new Date();
-    var countTo = 25 * 24 * 60 * 60 * 1000 + now.valueOf();
+    var countTo = 25 * 4 * 60 * 60 * 1000 + now.valueOf();
     $('.timer').countdown(countTo, function(event) {
         var $this = $(this);
         switch(event.type) {

@@ -5,9 +5,9 @@ var sg = require('sendgrid')(process.env.REACT_APP_SENDGRID_API_KEY);
 
 console.log(process.env.REACT_APP_SENDGRID_API_KEY);
 
-var emailfunctions = {};
-
-emailfunctions.userwelcome = function() {
+// var emailfunctions = {};
+//
+// emailfunctions.userwelcome = function() {
 
 var from_email = new helper.Email('welcome@dailygrub.com');
 var to_email = new helper.Email('knowles.jeffrey@gmail.com');
@@ -27,4 +27,4 @@ sg.API(request, function(err, response) {
   console.log(response.headers);
 });
 
-};
+// };

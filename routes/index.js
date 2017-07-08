@@ -64,5 +64,10 @@ router.get('/vendors', function(req, res, next) {
   res.render('vendor', { title: 'DailyGrub.com - Vendor Sign Up' });
 });
 
+/* GET confirm  page. */
+router.get('/vendorconfirm', function(req, res, next) {
+  res.render('vendorconfirm', { title: 'DailyGrub.com - Thank You' });
+});
+
 
 module.exports = router;

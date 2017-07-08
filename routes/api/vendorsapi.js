@@ -32,7 +32,7 @@ db.createVendor(addvendor, function (err, vendoradded) {
 });
 
 router.get('/', function (req, res){
-  res.send("This is the user API").status(200);
+  res.send("This is the vendor API").status(200);
 });
 
 module.exports = router;
